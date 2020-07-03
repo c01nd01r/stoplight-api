@@ -1,0 +1,3 @@
+# Poluchenie-statusa-kassy
+
+The beginning of an awesome article...

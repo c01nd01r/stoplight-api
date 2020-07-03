@@ -16,7 +16,8 @@ paths:
         '200':
           description: OK
       operationId: get-cashboxstatus.json
-      description: asd
+      description: Получение статуса кассы
+    parameters: []
 components:
   schemas: {}
   securitySchemes:
