@@ -1,0 +1,25 @@
+openapi: 3.0.0
+info:
+  title: WebApi
+  version: '1.0'
+  license:
+    name: MIT
+servers:
+  - url: 'http://localhost:3000'
+paths:
+  /cashboxstatus.json:
+    get:
+      summary: cashboxstatus
+      tags:
+        - getstatus
+      responses:
+        '200':
+          description: OK
+      operationId: get-cashboxstatus.json
+      description: asd
+components:
+  schemas: {}
+  securitySchemes:
+    API Key - 1:
+      type: http
+      scheme: basic
